@@ -55,6 +55,7 @@ function bandsGet(){
             var search = response.data;
             // console.log(response);
             // console.log(JSON.stringify(search, null, 2));
+            console.log(`Next tour dates for ${band} are: `)
             for(var i in search){
                 var day = moment(search[i].datetime).format("MM/DD/YYYY hh:mm a");
                 console.log(day +": "+ search[i].venue.name + ", " + search[i].venue.city + ", " + search[i].venue.country);
