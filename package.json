@@ -1,0 +1,26 @@
+{
+  "name": "LIRI-bot",
+  "version": "1.0.0",
+  "description": "Like Siri but in the command line. Powered by node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonboyd/LIRI-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonboyd/LIRI-bot/issues"
+  },
+  "homepage": "https://github.com/andersonboyd/LIRI-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
